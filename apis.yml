@@ -1,7 +1,26 @@
 aid: morewis
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/morewis.png
 name: morewis
-description: morewis is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Morewis (摩尔元数) is a Chinese industrial software company founded in 2017 and
+  headquartered in Xiamen, Fujian, that develops cloud-based Manufacturing Execution System (MES)
+  and Manufacturing Operations Management (MOM) software for the manufacturing sector. Its Morewis
+  Cloud industrial internet platform, MoreDEV low-code development platform (including the WisIDE
+  cloud IDE), and MoreAgent / N³ industrial AI large model let manufacturers build and run
+  smart-factory applications with reduced hand coding. Reference clients include Haier, Hisense,
+  Aisino, Inspur, and 3Trees Group. The company raised a ~100M yuan Series B led by Qiming Venture
+  Partners. No public English-language REST API, OpenAPI, SDK, or GitHub organization was found;
+  the developer surface is a China-hosted low-code industrial application platform.
 url: https://raw.githubusercontent.com/api-evangelist/morewis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +30,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Manufacturing
+- MES
+- MOM
+- Industrial IoT
+- Low-Code
+- Industrial AI
+- Smart Manufacturing
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/morewis-domain-security.yml
 - type: Website
-  url: https://morewis.com
+  url: https://www.morewis.com/
+- type: DeveloperPortal
+  url: https://cloud.morewis.com/developer/index.htm
+- type: Documentation
+  url: https://www.morewis.com/en/moredev/
