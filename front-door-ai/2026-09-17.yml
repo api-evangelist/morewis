@@ -1,0 +1,32 @@
+# Front Door AI Index — morewis — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: morewis
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.morewis.com
+  final_host: www.morewis.com
+  ownership: own
+  owner: morewis
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 59
+  host_score: 59
+  density: 27.51
+  words: 2145
+  tiers:
+    agentic: 6
+    core: 53
+    model: 0
+  ambiguous: 37
+  top_terms:
+    AI: 53
+    agent: 24
+    smart: 9
+    AI agent: 4
+    predictive: 3
+    AI assistant: 1
+    inference: 1
+    intelligence: 1
